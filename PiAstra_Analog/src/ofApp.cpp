@@ -3,7 +3,7 @@
 //------------------------------------------------------------------------
 void ofApp::setup()
 {
-	astraCam.setup();
+	astraCam.setup(320, 240);
 	astraCam.setRegistration(true);
 	astraCam.initSelectedStreams(true, true, false);
 }
