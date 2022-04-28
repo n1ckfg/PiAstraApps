@@ -1,2 +1,6 @@
-/bin/example_color-depth
+/bin/PiAstra*
+/bin/example*
+/obj
+astra.log
+
 
