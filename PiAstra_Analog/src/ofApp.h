@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxOrbbecAstraPro.h"
-#include "ofxXMLSettings.h"
+#include "ofxXmlSettings.h"
 
 class ofApp : public ofBaseApp
 {
