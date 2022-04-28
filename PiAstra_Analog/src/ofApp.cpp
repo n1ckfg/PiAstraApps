@@ -19,8 +19,8 @@ void ofApp::update()
 //------------------------------------------------------------------------
 void ofApp::draw()
 {
-	astraCam.drawDepth(0, 0);
-	astraCam.draw(640, 0);
+	astraCam.drawDepth(0, 0, 360, 480);
+	astraCam.draw(360, 0, 720, 480);
 }
 //------------------------------------------------------------------------
 void ofApp::keyPressed(int key)
