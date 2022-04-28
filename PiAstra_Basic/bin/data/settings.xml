@@ -5,6 +5,5 @@
     <!-- * -->
     <doColor>true</doColor>
     <doDepth>true</doDepth>
-    <doIr>false</doIr>
     <registered>true</registered>
 </settings>

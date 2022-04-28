@@ -4,16 +4,19 @@
 #include "ofxOrbbecAstraPro.h"
 #include "ofxXmlSettings.h"
 
-class ofApp : public ofBaseApp
-{
-public:
+class ofApp : public ofBaseApp {
 
-	void setup();
-	void update();
-	void draw();
+	public:
+		void setup();
+		void update();
+		void draw();
 
-	void keyPressed(int key);
+		void keyPressed(int key);
 
-private:
-	ofxOrbbecAstraPro astraCam;
+		ofxOrbbecAstraPro astraCam;
+
+	    ofxXmlSettings XML;
+    	int width, height, fps;
+	    bool doColor, doDepth, registered;
+
 };

@@ -16,8 +16,7 @@ class ofApp : public ofBaseApp {
 		ofxOrbbecAstraPro astraCam;
 
 	    ofxXmlSettings XML;
-
     	int width, height, fps;
-	    bool doColor, doDepth, doIr, registered;
+	    bool doColor, doDepth, registered;
 
 };
